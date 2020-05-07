@@ -4,7 +4,7 @@ pipeline {
         stage('ExampleBuild') {
            steps{
               // Run the maven build
-              sh 'Hello world'
+              echo 'Hello world'
            }
         }
     }
